@@ -13,8 +13,6 @@ p{
   font-family: Helvetica;
   }
 img{
-  padding-top: 10px
-  padding-bottom: 10px
-  padding-left: 10px
-  padding-right: 10 px
+  padding: 10px;
+  float: right;
   }
