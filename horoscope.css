@@ -1,20 +1,20 @@
-.title{
+p.title{
   font-family: Papyrus;
   font-size: x-large;
   text-align: center;
  }
   
-.time{
+p.time{
   text-align: center;
   font-size: large;
 }
 
-.sign{
+p.sign{
   font-family: Palatino;
   font-size: large;
   }
   
-.horoscope{
+p.horoscope{
   font-family: Perpetua;
   font-size: medium;
   }
