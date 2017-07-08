@@ -2,36 +2,29 @@ p.title{
   font-family: Papyrus;
   font-size: xx-large;
   text-align: center;
- }
-  
+ } 
 p.time{
   text-align: center;
   font-size: x-large;
   font-family: Papyrus;
 }
-
 p.sign{
   font-family: Papyrus;
   font-size: x-large;
-  }
-  
+  }  
 p.horoscope{
   font-family: Perpetua;
   font-size: large;
   }
-
 body{
   background-image: url("nightsky.jpg");
 }
-
 h1{
   color: #ffffff;
   }
-  
-  h2{
+h2{
       color: #ffffff;
   }
-  
-  p{
+p{
       color: #ffffff;
   }
