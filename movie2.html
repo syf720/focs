@@ -2,7 +2,34 @@
 <head>
  <style type="text/css">
   <--Internal Style Sheet-->
-  
+body {
+    margin: 0;
+        font-family: Helvetica;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}  
   
 h1{
   font-family: Helvetica;
@@ -19,13 +46,26 @@ img{
   padding: 10px;
   float: right;
   }
-body{
-  background-color: #e6f9ff;
-}
  </style>
 <title>movie2.html</title>
 </head>
 <body>
+ <div id="navbar">  
+    <span class="inbar">  
+        <ul>  
+            <li><a href="http://syf720.github.io/focs/home.html"><span>Home</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/practical.html"><span>Practical</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/societal.html"><span>Societal</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/movie1.html"><span>Movie1</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/movie2.html"><span>Movie2</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/movie3.html"><span>Movie3</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/movie4.html"><span>Movie4</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/horoscope1.html"><span>Horoscope1</span></a></li>  
+            <li><a href="http://syf720.github.io/focs/horoscope2.html"><span>Horoscope2</span></a></li>  
+        </ul>  
+    </span>  
+</div>  
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;"
  <img src="fivestar.jpg" img alt="Five Stars" height="50px" width="175px">
 <center><h1>Maleficent Movie Review</h1></center>
 <h2>About the Movie</h2>
@@ -43,6 +83,7 @@ forced to take drastic actions that will change both worlds forever. (c) Walt Di
 <p>I absolutely loved Maleficent! Angelina Jolie's acting was skillful, and I think that one could really relate to Maleficent.
 I also really liked how the movie was told from her point of view, instead of painting her as a villain. Not to mention, the
 special effects were tastefully done, and the soundtrack was so beautiful! I loved this movie. 5/5!. 
+ </div> 
  
 </body>
 </html>
