@@ -22,6 +22,10 @@ li a:hover {
     background-color: #111;
 }
 
+li a.active {
+    background-color: #527a7a;
+    color: white;
+
 body{
     background-color: #94b8b8;
     font-family: Helvetica;
