@@ -7,7 +7,7 @@ ul.navbar {
 }
 
 ol.reasons{
-    font-size: large;
+    font-size: "medium";
 }
 
 li.navbar {
@@ -37,11 +37,11 @@ body{
 }
   
 h1{
-  font-size: xx-large;
+  font-size: "xx-large";
   }
 
 p{
-  font-size: large;
+  font-size: "medium";
   }
   
 img{
